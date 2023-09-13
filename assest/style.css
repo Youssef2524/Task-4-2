@@ -1,0 +1,295 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: large;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.start {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.start1 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.start2 {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#navbarSupportedContent {
+    padding-left: 250px;
+}
+
+.nav1 {
+    height: 500px;
+}
+
+.nav1 h1 {
+    max-width: 500px;
+}
+
+.hero {
+    background-image: linear-gradient(0deg, rgba(255, 183, 0, 0.341), rgba(255, 166, 0, 0.177)), url(./background2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 700px;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.bord {
+    border-radius: 50%;
+}
+
+.col-md-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body {
+    width: 233px;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+.row .fa-solid {
+    color: blue;
+    background-color: white;
+}
+
+.col-md-4 {
+    background-color: whitesmoke;
+}
+
+p .text {
+    color: blue;
+}
+
+.ince {
+    background-color: whitesmoke;
+    height: max-content;
+    position: relative;
+    padding-bottom: 120px;
+}
+
+.icon {
+    position: absolute;
+    top: -3vh;
+    right: 2vw;
+}
+
+.ince p,
+.h1 {
+    width: 29vw;
+}
+
+.icon img {
+    width: 22vw;
+    height: 60vh;
+}
+
+.solid {
+    color: blue;
+}
+
+h1 {
+    color: blue;
+}
+
+.card2 {
+    height: 200px;
+}
+
+.blue {
+    color: blue;
+}
+
+.cardb {
+    width: auto;
+}
+
+.right {
+    background-color: whitesmoke;
+    height: max-content;
+    padding-bottom: 95px;
+    width: 100vw;
+
+}
+
+.cardd {
+    width: auto;
+    height: 240px;
+}
+
+.valu {
+    display: flex;
+    gap: 80px;
+}
+
+.pp2 {
+    display: flex;
+    gap: 120px;
+}
+
+.spa1 {
+    color: blue;
+}
+
+.education1 {
+    background-image: linear-gradient(0deg, rgba(255, 183, 0, 0.341), rgba(255, 166, 0, 0.177)), url(./background2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.ppp {
+    display: flex;
+    justify-content: flex-start;
+    width: 286px;
+}
+
+.card3 {
+    width: 800px;
+    height: 350px;
+}
+
+.card11 img {
+    width: 150px;
+    height: 350px;
+
+}
+
+.div{
+    color: rgb(186, 186, 186)!important;
+}
+.i2{
+    color: rgb(186, 186, 186)!important;
+}
+
+
+.b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+    gap: 10px;
+}
+.d{
+    margin-bottom: 90px;
+}
+
+.ddd{
+    display: flex;
+}
+
+.n{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+
+@media screen and (max-width:920px) {
+    .card2 {
+        width: 11rem !important;
+        height: 36vh;
+    }
+
+}
+
+@media screen and (max-width:660px) {
+    .card2 {
+        width: 8rem !important;
+        height: 50vh;
+    }
+    .card5{
+        width: 14rem!important;
+    }
+
+    p,
+    h1 {
+        font-size: medium !important;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .card2 {
+        width: 8rem !important;
+        height: 30vh;
+
+    }
+
+    p,
+    h5,
+    h1{
+        font-size: x-small !important;
+    }
+
+}
+
+@media screen and (max-width:510px) {
+    .card2 {
+        width: 5rem !important;
+        height: 40vh;
+
+    }
+
+    /* .card3{
+        width: 8rem !important;
+    } */
+    p,
+    h5 {
+        font-size: x-small !important;
+    }
+
+}
+
+@media screen and (max-width:350px) {
+    .card2 {
+        width: 4rem !important;
+        height: 35vh;
+
+    }
+
+    p,
+    h5 {
+        font-size: xx-small !important;
+    }
+
+}
+
+
+
+
+
+/* 
+@media screen and (max-width:420px) {
+    html {
+        font-size: 10px;
+    }
+
+    #CONTACTME,
+    .form {
+
+        width: 300px;
+    }
+} */
